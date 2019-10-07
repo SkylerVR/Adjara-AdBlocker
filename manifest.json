@@ -1,0 +1,21 @@
+{
+  "name": "Adjara AdBlocker",
+  "version": "0.1",
+  "description": "Adjaranet Ads Removal Tool",
+  "icons": {
+    "16": "block16.png",
+    "48": "block48.png",
+    "128": "block128.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.adjaranet.com/*",
+    "*://*.open5.myvideo.ge/*",
+    "*://*.open2.myvideo.ge/*"
+  ],
+  "background": {
+    "scripts": ["adjarablock.js"]
+  },
+  "manifest_version": 2
+}
